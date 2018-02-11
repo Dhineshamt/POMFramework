@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCases.TC004_MergeLead">
+        <methods>
+          <include name="endResult"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="endTestcase"/>
+          <include name="startResult"/>
+          <include name="setData"/>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- testCases.TC004_MergeLead -->
+      <class name="testCases.TC002_EditLead">
+        <methods>
+          <include name="endResult"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="editLead"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="endTestcase"/>
+          <include name="startResult"/>
+        </methods>
+      </class> <!-- testCases.TC002_EditLead -->
+      <class name="testCases.TC005_DeleteLead">
+        <methods>
+          <include name="endResult"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="deleteLead"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="endTestcase"/>
+          <include name="startResult"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- testCases.TC005_DeleteLead -->
+      <class name="testCases.TC001_CreateLead">
+        <methods>
+          <include name="endResult"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="setData"/>
+          <include name="endTestcase"/>
+          <include name="startResult"/>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- testCases.TC001_CreateLead -->
+      <class name="testCases.TC003_DuplicateLead">
+        <methods>
+          <include name="setData"/>
+          <include name="endResult"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="duplicateLead"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="endTestcase"/>
+          <include name="startResult"/>
+        </methods>
+      </class> <!-- testCases.TC003_DuplicateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
