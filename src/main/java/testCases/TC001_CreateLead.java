@@ -4,7 +4,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pages.LoginPage;
-
 import wrappers.LeafTapsWrappers;
 
 public class TC001_CreateLead extends LeafTapsWrappers {
