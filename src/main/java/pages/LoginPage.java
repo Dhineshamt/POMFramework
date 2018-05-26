@@ -12,7 +12,7 @@ public class LoginPage extends LeafTapsWrappers{
 		this.driver = driver;
 		this.test = test;
 
-		if(!verifyTitle("Opentaps Open Source ERP + CRM")){
+		if(!verifyTitle("Leaftaps - TestLeaf Automation Platform")){
 			reportStep("This is not Login Page", "FAIL");
 		}
 	}
