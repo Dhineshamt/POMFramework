@@ -24,7 +24,7 @@ public class TC001_CreateLead extends LeafTapsWrappers {
 	@Test(dataProvider = "fetchData", groups = "smoke")
 	public void createLead(String uName, String pwd, String companyName, String firstName, String lastName){
 		
-		System.out.println("Testcase started Execution....");
+		System.out.println("Testcase started Execution........");
 		new LoginPage(driver, test)
 		.enterUsername(uName)
 		.enterPassword(pwd)
